@@ -2,7 +2,7 @@ var estadoLicuadora = "apagada";
 var licuadora = document.getElementById("blender");
 var sonidoLicuadora = document.getElementById("blender-sound");
 var botonLicuadora = document.getElementById("blender-button-sound");
-
+ /*console.log("mensaje de BIENVENIDA");*/
 function controlarLicuadora() {
     if(estadoLicuadora == "apagada"){
         estadoLicuadora = "encendido";
